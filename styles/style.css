@@ -38,6 +38,7 @@
   color: white;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 .part-1 .nav-btn button:hover {
   background: #278507;
@@ -99,6 +100,7 @@ header .hero {
   color: white;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .hero-box-btn .btn1:hover {
@@ -114,6 +116,7 @@ header .hero {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .hero-box-btn .btn2:hover {
@@ -238,4 +241,57 @@ max-width: 1488px;
   line-height: 20px;
 }
 
-/* the solution */
+/* think part */
+
+.think {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+/* Container */
+.think-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #faf9f6;
+  border-radius: 16px;
+  padding: 70px 20px;
+  text-align: center;
+}
+.think-container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+.think-container p {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+#btn {
+  margin: 35px 0 25px;
+  padding: 14px 28px;
+  background-color: #3f8f5f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+#btn:hover {
+  background-color: #0cee6e;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #64748b;
+}
